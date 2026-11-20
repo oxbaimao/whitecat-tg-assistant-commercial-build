@@ -5,6 +5,8 @@ icon: download
 
 # 电脑端下载与安装指南（v6.0）
 
+> **视频教程**：[安装与激活（约 2 分钟，带配音和字幕）](tutorials.md)
+
 > 当前版本：**v6.0.1**（Windows、macOS Apple Silicon、Linux x86_64；Intel Mac 暂时继续使用 v6.0.0）。支持 **Windows 10 / 11（64 位）**、**macOS（Apple Silicon M1–M4）** 与 **64 位 Linux 桌面**。
 > 每个平台都提供两种形式：**安装版**（推荐，自带自动更新）和**免安装版**（解压即用，适合不想安装、放在移动硬盘或多开的场景）。
 

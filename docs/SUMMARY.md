@@ -5,6 +5,7 @@
 ## 快速上手 (Quick Start)
 * [双端矩阵与获客生态架构](getting_started/architecture.md)
 * [你想做什么？按目标找功能](getting_started/goals.md)
+* [教学视频（5 节短课）](getting_started/tutorials.md)
 * [v5.0 更新说明](getting_started/whats_new_5_0.md)
 * [电脑端下载与安装（安装版 / 免安装版）](getting_started/desktop_install.md)
 * [试用、购买与激活（卡密）](getting_started/activation_and_trial.md)

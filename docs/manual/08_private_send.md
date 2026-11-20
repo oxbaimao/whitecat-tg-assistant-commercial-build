@@ -8,6 +8,8 @@ icon: comment
 
 ![私信群发界面（演示数据）](../manual_images/v6/private_send.jpg)
 
+> **视频教程**：[私信群发（约 2 分钟，带配音和字幕）](../getting_started/tutorials.md)
+
 页面顶部的三步提示：**1 选账号，粘贴用户列表；2 写好文案，可选附带语音和 VoIP 来电提醒；3 点「开始群发」，被限制的用户会自动跳过**。
 
 ---

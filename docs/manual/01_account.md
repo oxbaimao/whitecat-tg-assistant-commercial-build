@@ -8,6 +8,8 @@ icon: users
 
 ![账号管理界面（演示数据）](../manual_images/v6/accounts.jpg)
 
+> **视频教程**：[导入账号并检测状态（约 2 分钟，带配音和字幕）](../getting_started/tutorials.md)
+
 页面标题是「账号中枢」，顶部有三个计数：**全部、在线、风险**，一眼看出账号池的健康度。
 
 ---
