@@ -1,4 +1,8 @@
-# ❓ 常见问题排查与官方技术支持
+---
+icon: circle-question
+---
+
+# 常见问题排查与官方技术支持
 
 ---
 
@@ -37,10 +41,10 @@
 
 ## 二、官方技术支持通道
 
-- 💬 **官方 Telegram 客服**: [@oxbaimao](https://t.me/oxbaimao)
-- 🤖 **手机端获客机器人**: [@wchjbot](https://t.me/wchjbot)
-- 🌐 **GitHub 官方发布仓**: [oxbaimao/whitecat-tg-assistant-commercial-build](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build)
-- 🐛 **问题反馈与需求提交**: [GitHub Issues](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/issues)
+- **官方 Telegram 客服**: [@oxbaimao](https://t.me/oxbaimao)
+- **手机端获客机器人**: [@wchjbot](https://t.me/wchjbot)
+- **GitHub 官方发布仓**: [oxbaimao/whitecat-tg-assistant-commercial-build](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build)
+- **问题反馈与需求提交**: [GitHub Issues](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/issues)
 
 ---
 

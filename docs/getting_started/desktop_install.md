@@ -1,7 +1,11 @@
+---
+icon: download
+---
 
-# 💻 电脑端下载与安装指南（v6.0）
 
-> 🚀 当前版本：**v6.0.1**（Windows、macOS Apple Silicon、Linux x86_64；Intel Mac 暂时继续使用 v6.0.0）。支持 **Windows 10 / 11（64 位）**、**macOS（Apple Silicon M1–M4）** 与 **64 位 Linux 桌面**。
+# 电脑端下载与安装指南（v6.0）
+
+> 当前版本：**v6.0.1**（Windows、macOS Apple Silicon、Linux x86_64；Intel Mac 暂时继续使用 v6.0.0）。支持 **Windows 10 / 11（64 位）**、**macOS（Apple Silicon M1–M4）** 与 **64 位 Linux 桌面**。
 > 每个平台都提供两种形式：**安装版**（推荐，自带自动更新）和**免安装版**（解压即用，适合不想安装、放在移动硬盘或多开的场景）。
 
 ---
@@ -12,9 +16,9 @@
 
 | 系统 | 形式 | 官网直链 | GitHub | SHA-256 |
 | :--- | :--- | :--- | :--- | :--- |
-| **Windows x64** | 安装版 ⭐ | [Setup.exe](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.1-Setup.exe) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.1/WhiteCat-TG-Assistant-6.0.1-Setup.exe) | `6ced723d8a21a107e9c2ea6cbd2ad097922d6de503b681586654d6e1ece5c552` |
+| **Windows x64** | 安装版 | [Setup.exe](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.1-Setup.exe) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.1/WhiteCat-TG-Assistant-6.0.1-Setup.exe) | `6ced723d8a21a107e9c2ea6cbd2ad097922d6de503b681586654d6e1ece5c552` |
 | **Windows x64** | 免安装版 | [Portable.zip](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.1-Windows-x64-Portable.zip) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.1/WhiteCat-TG-Assistant-6.0.1-Windows-x64-Portable.zip) | `ff144181c1afc98864435f416c81051ac27368fb90b137e675315c05a6eebe24` |
-| **macOS Apple 芯片（M1–M4）** | 安装版 ⭐ | [arm64.dmg](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.1-macOS-arm64.dmg) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.1/WhiteCat-TG-Assistant-6.0.1-macOS-arm64.dmg) | `080ba4ac382c0004c87b6dd54a5310fc94fb6e2b8ef8c69ae698ca9bef4a878d` |
+| **macOS Apple 芯片（M1–M4）** | 安装版 | [arm64.dmg](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.1-macOS-arm64.dmg) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.1/WhiteCat-TG-Assistant-6.0.1-macOS-arm64.dmg) | `080ba4ac382c0004c87b6dd54a5310fc94fb6e2b8ef8c69ae698ca9bef4a878d` |
 | **macOS Apple 芯片（M1–M4）** | 免安装版 | [arm64 Portable.zip](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.1-macOS-arm64-Portable.zip) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.1/WhiteCat-TG-Assistant-6.0.1-macOS-arm64-Portable.zip) | `c4281e831d2e5cb49631c03333a6a9b9f39015015dab1548f60a9715a0af6069` |
 | **Linux x86_64** | tar.gz | [Portable.tar.gz](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.1-Linux-x64-Portable.tar.gz) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.1/WhiteCat-TG-Assistant-6.0.1-Linux-x64-Portable.tar.gz) | `ece20a51eb3226f80ecec34d2e56c87736b7b4ac167d4282b199522f06f8ef78` |
 | **macOS Intel** | 安装版（6.0.0，本次未更新） | [x64.dmg](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.0-macOS-x64.dmg) | — | `2f8b9afda3e9b9d79ce85e5d6be99068a9b513e16b7ae127fbbbb719187330e6` |
@@ -23,7 +27,7 @@
 > Linux 压缩包解压后在图形桌面里运行 `./start.sh`（首次可能需要 `chmod +x`）；缺库见压缩包里的 `README_使用说明.txt`；语音条 / 圆形视频需要系统里装有 ffmpeg。
 > Windows 免安装版：解压后双击里面的 `双击启动.bat`（程序文件都在 `app` 文件夹里，请不要删除）。
 
-> 🍎 **macOS 提示「已损坏，无法打开」**：请下载最新版 v6.0.1 的包重试。仍不行：终端执行 `xattr -cr "/Applications/TG自动获客助手 旗舰商业版.app"`，再执行 `codesign --force --deep --sign - "/Applications/TG自动获客助手 旗舰商业版.app"`，然后右键 → 打开。若还不行，请反馈 `uname -m`、`sw_vers -productVersion` 和 `codesign -dv --verbose=2 "/Applications/TG自动获客助手 旗舰商业版.app"` 的输出。
+> **macOS 提示「已损坏，无法打开」**：请下载最新版 v6.0.1 的包重试。仍不行：终端执行 `xattr -cr "/Applications/TG自动获客助手 旗舰商业版.app"`，再执行 `codesign --force --deep --sign - "/Applications/TG自动获客助手 旗舰商业版.app"`，然后右键 → 打开。若还不行，请反馈 `uname -m`、`sw_vers -productVersion` 和 `codesign -dv --verbose=2 "/Applications/TG自动获客助手 旗舰商业版.app"` 的输出。
 > 不确定芯片？点屏幕左上角苹果菜单 → **关于本机**：显示「芯片 Apple M…」选 arm64，显示「处理器 Intel…」选 x64。
 > 校验：Windows 在 PowerShell 执行 `Get-FileHash <文件>`；macOS 在终端执行 `shasum -a 256 <文件>`，结果应与 Release 页面的 `SHA256SUMS.txt` 一致。
 
@@ -75,7 +79,7 @@
 ### 语音条（语音消息转码）
 macOS 版已**内置**转码组件（FFmpeg，LGPL 许可，随包附许可证），无需额外安装，即可把 mp3 / wav 等音频转成 Telegram 原生语音条。
 
-> ⚠️ macOS 版没有做 Apple 公证，只在构建机上做过自检，**欢迎在使用中把遇到的问题反馈给客服**（见文末）。
+> macOS 版没有做 Apple 公证，只在构建机上做过自检，**欢迎在使用中把遇到的问题反馈给客服**（见文末）。
 
 ---
 

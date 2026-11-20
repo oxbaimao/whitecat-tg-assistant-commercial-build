@@ -1,24 +1,24 @@
 # Summary
 
-* [🏠 首页概览](README.md)
+* [首页概览](README.md)
 
-## 🚀 快速上手 (Quick Start)
+## 快速上手 (Quick Start)
 * [双端矩阵与获客生态架构](getting_started/architecture.md)
-* [🧭 你想做什么？按目标找功能](getting_started/goals.md)
+* [你想做什么？按目标找功能](getting_started/goals.md)
 * [v5.0 更新说明](getting_started/whats_new_5_0.md)
 * [电脑端下载与安装（安装版 / 免安装版）](getting_started/desktop_install.md)
 * [试用、购买与激活（卡密）](getting_started/activation_and_trial.md)
 * [手机端获客机器人一键唤醒](getting_started/mobile_bot_start.md)
 
-## 📱 手机端获客机器人 (@wchjbot)
+## 手机端获客机器人 (@wchjbot)
 * [01. 获客中枢与群组大盘](mobile_bot/01_overview.md)
 * [02. 关键词商机监听与高级调优](mobile_bot/02_keyword_monitor.md)
 * [03. 一键全网群发广播中心](mobile_bot/03_broadcast.md)
 * [04. 资产充值与多账号月卡订阅](mobile_bot/04_membership.md)
 * [05. 真实客户实战拉群与盈利战报](mobile_bot/05_case_studies.md)
 
-## 💻 电脑端全功能实战手册 (22 大核心实战卡)
-* [📖 通读全功能实战汇编版](USER_MANUAL.md)
+## 电脑端全功能实战手册 (22 大核心实战卡)
+* [通读全功能实战汇编版](USER_MANUAL.md)
 
 ### 第一篇：账号与网络基石
 * [01. 账号管理](manual/01_account.md)
@@ -50,9 +50,11 @@
 
 ### 第四篇：AI 助手与手机遥控（6.0 新）
 * [23. 猫管家：一句话让软件干活](manual/23_cat_butler.md)
-* [24. 手机遥控：用自己的机器人操作软件](manual/24_phone_remote.md)
+* [24. 配置模型接口（API）](manual/24_cat_api_setup.md)
+* [25. 配置 Telegram 机器人（手机遥控）](manual/25_phone_remote.md)
+* [26. 猫管家提示词库（一键复制）](manual/26_prompt_library.md)
 
-## 🤖 MCP 智能体协议与 AI 调度 (62 项)
+## MCP 智能体协议与 AI 调度 (62 项)
 * [一键全自动配置本地所有 AI Agent](mcp/01_quickstart.md)
 * [62 项 MCP 工具参考](mcp/03_tools_reference.md)
 * [自然语言提示词库与实战案例](mcp/02_prompts.md)
@@ -81,7 +83,7 @@
 * [v5.0.2 更新说明](getting_started/whats_new_5_0_2.md)
 * [v5.0.1 更新说明](getting_started/whats_new_5_0_1.md)
 
-## 🛡️ 安全防封与常见问题 (FAQ)
+## 安全防封与常见问题 (FAQ)
 * [工业级防风控与账号养号秘籍](faq/01_anti_ban.md)
 * [常见问题排查与官方支持](faq/02_troubleshooting.md)
-* [🔍 按症状查原因](faq/03_by_symptom.md)\n
+* [按症状查原因](faq/03_by_symptom.md)\n

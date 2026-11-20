@@ -1,4 +1,8 @@
-# 🧭 你想做什么？按目标找功能
+---
+icon: compass
+---
+
+# 你想做什么？按目标找功能
 
 > 不知道从哪开始？找到你的目标，照着链接读对应的那一篇就行。第一次使用建议先读 [试用、购买与激活](activation_and_trial.md)，装好软件后按下面的「第一周路线」走。
 
@@ -51,7 +55,7 @@
 
 ### 我想让 AI 帮我干活
 - 在软件里用一句话下指令 → [23. 猫管家](../manual/23_cat_butler.md)
-- 在手机上遥控电脑上的软件 → [24. 手机遥控](../manual/24_phone_remote.md)
+- 在手机上遥控电脑上的软件 → [24. 手机遥控](../manual/25_phone_remote.md)
 - 让 Claude / Cursor 等外部 AI Agent 接管 → [MCP 一键配置](../mcp/01_quickstart.md)
 
 ---

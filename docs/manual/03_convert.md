@@ -1,7 +1,11 @@
+---
+icon: shield-halved
+---
+
 # 03. 安全与格式转换
 
-> 📌 **模块分类**：底座与环境设置  
-> 💡 **核心定位**：跨平台 Telegram 账号凭据桥梁，实现 TData、Telethon Session、Pyrogram Session、JSON 格式无损双向转换。
+> **模块分类**：底座与环境设置 
+> **核心定位**：跨平台 Telegram 账号凭据桥梁，实现 TData、Telethon Session、Pyrogram Session、JSON 格式无损双向转换。
 
 ---
 

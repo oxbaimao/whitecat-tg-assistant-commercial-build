@@ -1,4 +1,8 @@
-# 🆕 v5.0.5 更新说明
+---
+icon: wand-magic-sparkles
+---
+
+# v5.0.5 更新说明
 
 > 5.0.4 的功能请看 [v5.0.4 更新说明](whats_new_5_0_4.md)。（本版本含 Windows 与 macOS Apple 芯片；macOS Intel 暂无新包，仍为 5.0.1。）
 
