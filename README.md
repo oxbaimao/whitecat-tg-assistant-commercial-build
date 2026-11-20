@@ -3,7 +3,7 @@
     <source media="(prefers-color-scheme: dark)" srcset="./docs/promo/v6/whitecat_hand_dark.gif">
     <img src="./docs/promo/v6/whitecat_hand_light.gif" width="560" alt="WhiteCat" />
   </picture>
-  <h3>白猫 TG 自动获客助手 · 旗舰商业版 v6.0.0</h3>
+  <h3>白猫 TG 自动获客助手 · 旗舰商业版 v6.0.1</h3>
   <p>
     <a href="https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/latest"><img alt="Latest Release" src="https://img.shields.io/github/v/release/oxbaimao/whitecat-tg-assistant-commercial-build?display_name=release&style=for-the-badge&color=1677ff"></a>
     <a href="https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/oxbaimao/whitecat-tg-assistant-commercial-build/total?style=for-the-badge&color=22a06b"></a>
@@ -35,13 +35,13 @@ WhiteCat 是一个跑在你自己电脑上的 Telegram 获客工具：**找客�
 
 | 系统 | 类型 | 官网直链（推荐） | GitHub 镜像 | SHA-256 |
 | :--- | :--- | :--- | :--- | :--- |
-| Windows x64 | 安装版（自带自动更新） | [Setup.exe](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.0-Setup.exe) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.0/WhiteCat-TG-Assistant-6.0.0-Setup.exe) | `dc1e86120c6cc3d135ebab728213fdd4faddb8d075ca24418090bf4c026ef1da` |
-| Windows x64 | 便携版（解压即用） | [Portable.zip](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.0-Windows-x64-Portable.zip) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.0/WhiteCat-TG-Assistant-6.0.0-Windows-x64-Portable.zip) | `ecf7d5141b4d60bd8d3013910ff3f32dcaab899bc58371ec40128cd63ac201be` |
-| macOS Apple 芯片（M1–M4） | dmg 安装版 | [arm64.dmg](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.0-macOS-arm64.dmg) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.0/WhiteCat-TG-Assistant-6.0.0-macOS-arm64.dmg) | `80875f715cfc3fd6973a2e82053aaa18ba13927c63c207850b88614889ac894d` |
-| macOS Apple 芯片（M1–M4） | 便携版 | [arm64 Portable.zip](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.0-macOS-arm64-Portable.zip) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.0/WhiteCat-TG-Assistant-6.0.0-macOS-arm64-Portable.zip) | `0a39afb85a32a6887c0557dd8ce3eaa60d73733066dfcc04a4d3b9d3e9932387` |
-| macOS Intel | dmg 安装版 | [x64.dmg](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.0-macOS-x64.dmg) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.0/WhiteCat-TG-Assistant-6.0.0-macOS-x64.dmg) | `2f8b9afda3e9b9d79ce85e5d6be99068a9b513e16b7ae127fbbbb719187330e6` |
-| macOS Intel | 便携版 | [x64 Portable.zip](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.0-macOS-x64-Portable.zip) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.0/WhiteCat-TG-Assistant-6.0.0-macOS-x64-Portable.zip) | `73956ee7e8cff9389fd1f06a9edd686aca0e1c6a7c8eac0bd6fbd6b11f826264` |
-| Linux x86_64 | 便携版（tar.gz） | [Portable.tar.gz](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.0-Linux-x64-Portable.tar.gz) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.0/WhiteCat-TG-Assistant-6.0.0-Linux-x64-Portable.tar.gz) | `2bbc66754d5e64da9694df1955d871f2f657a351498f0f71a163dd959c131ae4` |
+| Windows x64 | 安装版（自带自动更新） | [Setup.exe](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.1-Setup.exe) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.1/WhiteCat-TG-Assistant-6.0.1-Setup.exe) | `6ced723d8a21a107e9c2ea6cbd2ad097922d6de503b681586654d6e1ece5c552` |
+| Windows x64 | 便携版（解压即用） | [Portable.zip](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.1-Windows-x64-Portable.zip) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.1/WhiteCat-TG-Assistant-6.0.1-Windows-x64-Portable.zip) | `ff144181c1afc98864435f416c81051ac27368fb90b137e675315c05a6eebe24` |
+| macOS Apple 芯片（M1–M4） | dmg 安装版 | [arm64.dmg](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.1-macOS-arm64.dmg) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.1/WhiteCat-TG-Assistant-6.0.1-macOS-arm64.dmg) | `080ba4ac382c0004c87b6dd54a5310fc94fb6e2b8ef8c69ae698ca9bef4a878d` |
+| macOS Apple 芯片（M1–M4） | 便携版 | [arm64 Portable.zip](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.1-macOS-arm64-Portable.zip) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.1/WhiteCat-TG-Assistant-6.0.1-macOS-arm64-Portable.zip) | `c4281e831d2e5cb49631c03333a6a9b9f39015015dab1548f60a9715a0af6069` |
+| macOS Intel（6.0.0，本次未更新） | dmg 安装版 | [x64.dmg](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.0-macOS-x64.dmg) | — | `2f8b9afda3e9b9d79ce85e5d6be99068a9b513e16b7ae127fbbbb719187330e6` |
+| macOS Intel（6.0.0，本次未更新） | 便携版 | [x64 Portable.zip](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.0-macOS-x64-Portable.zip) | — | `73956ee7e8cff9389fd1f06a9edd686aca0e1c6a7c8eac0bd6fbd6b11f826264` |
+| Linux x86_64 | 便携版（tar.gz） | [Portable.tar.gz](https://license.web3baimao.com/api/v1/update/files/WhiteCat-TG-Assistant-6.0.1-Linux-x64-Portable.tar.gz) | [Release](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/download/v6.0.1/WhiteCat-TG-Assistant-6.0.1-Linux-x64-Portable.tar.gz) | `ece20a51eb3226f80ecec34d2e56c87736b7b4ac167d4282b199522f06f8ef78` |
 
 > 安装提示：Windows 首次运行若提示「已保护你的电脑」，点「更多信息 → 仍要运行」；macOS 若被拦截，到「系统设置 → 隐私与安全性」点「仍要打开」。安装包目前未做代码签名。
 > 需要正式卡密或商务咨询，请联系 [@oxbaimao](https://t.me/oxbaimao)。
@@ -86,7 +86,7 @@ WhiteCat 是一个跑在你自己电脑上的 Telegram 获客工具：**找客�
 - 购买卡密 / 商务合作：[@oxbaimao](https://t.me/oxbaimao)
 - 手机端获客 Bot：[@wchjbot](https://t.me/wchjbot)
 - 官方网站：[tg.web3baimao.com](https://tg.web3baimao.com)　文档：[GitBook](https://bai-mao.gitbook.io/bai-mao-docs/)
-- 更新说明：[v6.0.0](./docs/getting_started/whats_new_6_0_0.md)
+- 更新说明：[v6.0.1](./docs/getting_started/whats_new_6_0_1.md)
 
 ---
 

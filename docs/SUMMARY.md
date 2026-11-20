@@ -51,6 +51,8 @@
 * [一键全自动配置本地所有 AI Agent](mcp/01_quickstart.md)
 * [60 项 MCP 工具参考](mcp/03_tools_reference.md)
 * [自然语言提示词库与实战案例](mcp/02_prompts.md)
+* [v6.0.1 更新说明](getting_started/whats_new_6_0_1.md)
+* [v6.0.0 更新说明](getting_started/whats_new_6_0_0.md)
 * [v5.0.20 更新说明](getting_started/whats_new_5_0_20.md)
 * [v5.0.1 更新说明（即将发布）](getting_started/whats_new_5_0_1.md)
 * [v5.0.5 更新说明](getting_started/whats_new_5_0_5.md)
