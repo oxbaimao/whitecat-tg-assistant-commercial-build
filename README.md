@@ -1,12 +1,14 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./docs/promo/v6/whitecat_hand_dark.gif">
-    <img src="./docs/promo/v6/whitecat_hand_light.gif" width="560" alt="WhiteCat" />
-  </picture>
+  <a href="https://tg.web3baimao.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./docs/promo/v6/whitecat_hand_dark.gif">
+      <img src="./docs/promo/v6/whitecat_hand_light.gif" width="560" alt="WhiteCat" />
+    </picture>
+  </a>
   <h3>白猫 TG 自动获客助手 · 旗舰商业版 v6.0.1</h3>
   <p>
     <a href="https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/latest"><img alt="Latest Release" src="https://img.shields.io/github/v/release/oxbaimao/whitecat-tg-assistant-commercial-build?display_name=release&style=for-the-badge&color=1677ff"></a>
-    <a href="https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/oxbaimao/whitecat-tg-assistant-commercial-build/total?style=for-the-badge&color=22a06b"></a>
+    <a href="https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases"><img alt="Downloads" src="https://img.shields.io/badge/downloads-310%2B-22a06b?style=for-the-badge"></a>
     <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-7c3aed?style=for-the-badge">
   </p>
   <p>
@@ -87,6 +89,18 @@ WhiteCat 是一个跑在你自己电脑上的 Telegram 获客工具：**找客�
 - 手机端获客 Bot：[@wchjbot](https://t.me/wchjbot)
 - 官方网站：[tg.web3baimao.com](https://tg.web3baimao.com)　文档：[GitBook](https://baimao.gitbook.io/baimao-docs/)
 - 更新说明：[v6.0.1](./docs/getting_started/whats_new_6_0_1.md)
+
+---
+
+## 免责声明
+
+欢迎使用 WhiteCat（白猫 TG 自动获客助手）。使用前请仔细阅读以下声明，使用本软件即代表您已充分理解并同意以下所有条款：
+
+1. **使用地区**：本软件禁止在中国大陆地区使用，仅向中国大陆以外国家或地区的用户提供。如您位于中国大陆，请立即停止下载与使用。
+2. **合法合规**：请确保您的所有操作均严格遵守所在地法律法规及 Telegram 平台规则。严禁将本软件用于任何违法违规用途，包括但不限于发布违法违规内容、发送垃圾信息骚扰、电信诈骗或侵犯他人合法权益。因违规违法使用产生的一切法律责任由使用者自行完全承担，与开发者无关。
+3. **账号风险**：本软件为第三方独立开发的本地辅助工具，与 Telegram 官方无任何隶属或关联关系。使用自动化或批量营销工具可能存在被 Telegram 官方风控、功能限制或封禁账号的风险，相关使用风险及账号损失由使用者自行承担。
+4. **卡密与授权**：软件卡密属于数字化虚拟商品，激活后即完成权益兑换，不支持退款；请妥善保管个人授权卡密，严禁转售、倒卖、恶意分享或进行逆向工程。
+5. **本地数据安全**：本软件为单机客户端架构，所有账号凭证（Session / Tdata）、代理信息及线索数据均仅存储于用户本地设备，开发者不收集、不存储、不上传任何用户通信数据与隐私资产。
 
 ---
 

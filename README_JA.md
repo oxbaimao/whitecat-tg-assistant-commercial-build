@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/latest"><img alt="Latest Release" src="https://img.shields.io/github/v/release/oxbaimao/whitecat-tg-assistant-commercial-build?display_name=release&style=for-the-badge&color=1677ff"></a>
-  <a href="https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/oxbaimao/whitecat-tg-assistant-commercial-build/total?style=for-the-badge&color=22a06b"></a>
+  <a href="https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases"><img alt="Downloads" src="https://img.shields.io/badge/downloads-310%2B-22a06b?style=for-the-badge"></a>
   <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-7c3aed?style=for-the-badge">
 </p>
 
