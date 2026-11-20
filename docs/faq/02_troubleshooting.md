@@ -28,7 +28,7 @@
 **解答**：见 [试用、购买与激活](../getting_started/activation_and_trial.md)。软件内收银台与官方机器人 [@oxbaimaobot](https://t.me/oxbaimaobot) 均可购买；忘记卡密可在「激活 / 找回卡密」窗口点「找回我的卡密」。
 
 ### Q8: 语音条发不出去 / 提示没有 ffmpeg？
-**解答**：v5.0 的 Windows 与 macOS 安装包已内置转码组件，无需额外安装。如果仍提示缺少，请确认使用的是官方 v5.0 安装包（老版本需自行安装 ffmpeg），或把提示截图发给客服。
+**解答**：6.0 的 Windows 与 macOS 安装包已内置转码组件，无需额外安装。如果仍提示缺少，请确认使用的是官方 v5.0 安装包（老版本需自行安装 ffmpeg），或把提示截图发给客服。
 
 ### Q9: 数据在哪里？怎么备份 / 迁移？
 **解答**：Windows：`%LOCALAPPDATA%\WhiteCat\TG自动获客助手`；macOS：`~/Library/Application Support/WhiteCat/TG自动获客助手`。备份或迁移时关闭软件后复制整个文件夹即可。Session 相当于登录凭证，请勿外发。
