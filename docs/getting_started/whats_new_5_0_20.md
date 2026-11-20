@@ -51,5 +51,5 @@ icon: wand-magic-sparkles
 1. **Windows 首次安装提示**：若出现「Windows 已保护你的电脑」，点击 **更多信息 → 仍要运行** 即可正常进入；
 2. **macOS 首次安装提示**：若被系统拦截，请在「系统设置 → 隐私与安全性」中点击「仍要打开」；
 3. **官方客服与卡密购买**：Telegram 官方客服 [@oxbaimao](https://t.me/oxbaimao)
-4. **官方实战图文手册**：[https://bai-mao.gitbook.io/bai-mao-docs/](https://bai-mao.gitbook.io/bai-mao-docs/)
+4. **官方实战图文手册**：[https://baimao.gitbook.io/baimao-docs/](https://baimao.gitbook.io/baimao-docs/)
 5. **官方网站**：[https://tg.web3baimao.com](https://tg.web3baimao.com)

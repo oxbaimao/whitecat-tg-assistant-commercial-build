@@ -11,7 +11,7 @@
   </p>
   <p>
     <a href="https://tg.web3baimao.com"><strong>官方网站</strong></a> ·
-    <a href="https://bai-mao.gitbook.io/bai-mao-docs/"><strong>使用文档</strong></a> ·
+    <a href="https://baimao.gitbook.io/baimao-docs/"><strong>使用文档</strong></a> ·
     <a href="https://t.me/oxbaimao"><strong>客服 @oxbaimao</strong></a> ·
     <a href="https://t.me/wchjbot"><strong>手机端 Bot @wchjbot</strong></a>
   </p>
@@ -85,7 +85,7 @@ WhiteCat 是一个跑在你自己电脑上的 Telegram 获客工具：**找客�
 
 - 购买卡密 / 商务合作：[@oxbaimao](https://t.me/oxbaimao)
 - 手机端获客 Bot：[@wchjbot](https://t.me/wchjbot)
-- 官方网站：[tg.web3baimao.com](https://tg.web3baimao.com)　文档：[GitBook](https://bai-mao.gitbook.io/bai-mao-docs/)
+- 官方网站：[tg.web3baimao.com](https://tg.web3baimao.com)　文档：[GitBook](https://baimao.gitbook.io/baimao-docs/)
 - 更新说明：[v6.0.1](./docs/getting_started/whats_new_6_0_1.md)
 
 ---

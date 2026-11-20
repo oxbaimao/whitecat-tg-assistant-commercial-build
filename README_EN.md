@@ -11,12 +11,12 @@
 <p align="center">
   <a href="https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/latest"><img alt="Latest Release" src="https://img.shields.io/github/v/release/oxbaimao/whitecat-tg-assistant-commercial-build?display_name=release&style=for-the-badge&color=1677ff"></a>
   <a href="https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/oxbaimao/whitecat-tg-assistant-commercial-build/total?style=for-the-badge&color=22a06b"></a>
-  <a href="https://bai-mao.gitbook.io/bai-mao-docs/"><img alt="GitBook Docs" src="https://img.shields.io/badge/GitBook-Official_Docs-orange?style=for-the-badge&logo=gitbook"></a>
+  <a href="https://baimao.gitbook.io/baimao-docs/"><img alt="GitBook Docs" src="https://img.shields.io/badge/GitBook-Official_Docs-orange?style=for-the-badge&logo=gitbook"></a>
   <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-7c3aed?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="https://bai-mao.gitbook.io/bai-mao-docs/"><strong>📖 Official GitBook Manual</strong></a> | <a href="https://t.me/oxbaimao"><strong>💬 Telegram Support (@oxbaimao)</strong></a> | <a href="https://t.me/wchjbot"><strong>📱 Mobile Bot (@wchjbot)</strong></a> | <a href="README.md"><strong>中文版</strong></a>
+  <a href="https://baimao.gitbook.io/baimao-docs/"><strong>📖 Official GitBook Manual</strong></a> | <a href="https://t.me/oxbaimao"><strong>💬 Telegram Support (@oxbaimao)</strong></a> | <a href="https://t.me/wchjbot"><strong>📱 Mobile Bot (@wchjbot)</strong></a> | <a href="README.md"><strong>中文版</strong></a>
 </p>
 
 ---
@@ -55,7 +55,7 @@ Solve the biggest marketing challenge: **"Missed real-time public group inquirie
 The system provides 24/7 autonomous monitoring. When any user in monitored public or private groups mentions your target keywords, the lead is captured in milliseconds with risk-screening protection:
 
 <p align="center">
-  <img src="./docs/promo/02_lead_monitor.png" alt="Lead monitoring with keyword highlights, blacklist tags and pipeline (demo data)" width="98%" />
+  <img src="./docs/promo/v6/02_lead_monitor.jpg" alt="Lead monitoring with keyword highlights, blacklist tags and pipeline (demo data)" width="98%" />
 </p>
 
 ### ✨ Key Features:
@@ -74,7 +74,7 @@ Solve the lead acquisition challenge: **"Where do I find massive targeted active
 The system delivers a streamlined pipeline combining high-depth prospect discovery with human-like multi-account outreach:
 
 <p align="center">
-  <img src="./docs/promo/03_voice_outreach.png" alt="Outreach: ring, native voice note and send queue (demo data)" width="98%" />
+  <img src="./docs/promo/v6/03_voice_outreach.jpg" alt="Outreach: ring, native voice note and send queue (demo data)" width="98%" />
 </p>
 
 ### ✨ Key Features:
@@ -97,7 +97,7 @@ Solve community cold-start challenges: **"New groups are lifeless and inactive? 
 Powered by our proprietary AI matrix engine, multiple persona accounts automatically collaborate according to industry scenarios to warm up groups, role-play discussions, and guide prospects toward conversion:
 
 <p align="center">
-  <img src="./docs/promo/01_account_matrix.png" alt="Account matrix online with age-tiered risk control (demo data)" width="98%" />
+  <img src="./docs/promo/v6/01_account_matrix.jpg" alt="Account matrix online with age-tiered risk control (demo data)" width="98%" />
 </p>
 
 ### ✨ Key Features:
@@ -115,12 +115,12 @@ Powered by our proprietary AI matrix engine, multiple persona accounts automatic
 
 <table>
   <tr>
-    <td width="50%"><img src="./docs/promo/01_account_matrix.png" alt="Account matrix" /><br><sub><b>Account matrix</b> · concurrent online accounts, age-tiered risk control</sub></td>
-    <td width="50%"><img src="./docs/promo/02_lead_monitor.png" alt="Lead monitoring" /><br><sub><b>Lead monitoring</b> · keyword highlights, blacklist check, pipeline</sub></td>
+    <td width="50%"><img src="./docs/promo/v6/01_account_matrix.jpg" alt="Account matrix" /><br><sub><b>Account matrix</b> · concurrent online accounts, age-tiered risk control</sub></td>
+    <td width="50%"><img src="./docs/promo/v6/02_lead_monitor.jpg" alt="Lead monitoring" /><br><sub><b>Lead monitoring</b> · keyword highlights, blacklist check, pipeline</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="./docs/promo/03_voice_outreach.png" alt="Outreach" /><br><sub><b>Outreach</b> · ring → native voice note → text</sub></td>
-    <td width="50%"><img src="./docs/promo/04_channel_clone.png" alt="Channel clone" /><br><sub><b>Channel clone</b> · parallel channels, ad cleanup</sub></td>
+    <td width="50%"><img src="./docs/promo/v6/03_voice_outreach.jpg" alt="Outreach" /><br><sub><b>Outreach</b> · ring → native voice note → text</sub></td>
+    <td width="50%"><img src="./docs/promo/v6/04_channel_clone.jpg" alt="Channel clone" /><br><sub><b>Channel clone</b> · parallel channels, ad cleanup</sub></td>
   </tr>
 </table>
 
@@ -144,12 +144,12 @@ Beyond the three core engines above, WhiteCat TG Assistant Commercial Edition in
 For step-by-step UI guides, parameter tuning tips, and advanced growth playbooks for every single module, visit our official GitBook documentation:
 
 <p align="center">
-  <a href="https://bai-mao.gitbook.io/bai-mao-docs/">
+  <a href="https://baimao.gitbook.io/baimao-docs/">
     <img src="https://img.shields.io/badge/Read_Online-Official_GitBook_Documentation-blue?style=for-the-badge&logo=gitbook" alt="Read Official GitBook Documentation">
   </a>
 </p>
 
-👉 **Direct Online Documentation**: **[https://bai-mao.gitbook.io/bai-mao-docs/](https://bai-mao.gitbook.io/bai-mao-docs/)**
+👉 **Direct Online Documentation**: **[https://baimao.gitbook.io/baimao-docs/](https://baimao.gitbook.io/baimao-docs/)**
 
 ---
 
@@ -177,7 +177,7 @@ To let local AI Agents (Claude Desktop, Cursor, OpenAI Codex, Antigravity, Winds
 
 - **Telegram Support**: [t.me/oxbaimao](https://t.me/oxbaimao)
 - **Mobile Outreach Bot**: [t.me/wchjbot](https://t.me/wchjbot)
-- **Official GitBook Manual**: [https://bai-mao.gitbook.io/bai-mao-docs/](https://bai-mao.gitbook.io/bai-mao-docs/)
+- **Official GitBook Manual**: [https://baimao.gitbook.io/baimao-docs/](https://baimao.gitbook.io/baimao-docs/)
 - **Releases & Downloads**: [GitHub Releases](https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases)
 
 ---

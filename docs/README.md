@@ -9,70 +9,76 @@ icon: house
 <h1 align="center">白猫工作室 · TG 全域获客与社群治理官方文档</h1>
 
 <p align="center">
-  <strong>桌面专业客户端（22 模块 + 猫管家 AI 助手 + 62 项 MCP 智能体） × 手机端云端机器人（@wchjbot）双引擎驱动</strong>
+  <strong>桌面客户端（22 个功能模块 + 猫管家 AI 助手 + 62 项 MCP） × 手机端云端机器人（@wchjbot）</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases/latest"><img alt="Latest Release" src="https://img.shields.io/github/v/release/oxbaimao/whitecat-tg-assistant-commercial-build?display_name=release&style=for-the-badge&color=1677ff"></a>
   <a href="https://github.com/oxbaimao/whitecat-tg-assistant-commercial-build/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/oxbaimao/whitecat-tg-assistant-commercial-build/total?style=for-the-badge&color=22a06b"></a>
-  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Telegram%20Bot-7c3aed?style=for-the-badge">
+  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-7c3aed?style=for-the-badge">
 </p>
 
 ---
 
-## 欢迎访问官方实战指南
+## 从哪里开始
 
-本指南旨在帮助出海团队、跨境电商、数字营销从业者及社区运营专家，从零到一构建高转化、抗风控、全天候运转的 Telegram 自动化获客矩阵。
-
-### 双端矩阵，各展所长：
-- ** 电脑桌面客户端**：包含 22 大核心功能模块、猫管家 AI 助手与手机遥控，支持深度多账号管理、独占代理池、万人大群秒级采集、频道评论截流、AI 多角色炒群以及 **62 项 MCP AI Agent 智能体调度（5.0.1）**；
-- ** 手机端获客机器人 ([@wchjbot](https://t.me/wchjbot))**：**零门槛免安装**，7×24H 坚守云端，深度监听全网 **16,518+ 个高活跃行业大群**，毫秒级推送买家需求，手机随时随地一键全网群发广播！
+| 你是 | 先读这个 |
+| :--- | :--- |
+| 第一次用 | [你想做什么？按目标找功能](getting_started/goals.md)，然后 [下载与安装](getting_started/desktop_install.md) 和 [试用、购买与激活](getting_started/activation_and_trial.md) |
+| 想用一句话让软件干活 | [23. 猫管家](manual/23_cat_butler.md) → [24. 配置模型接口](manual/24_cat_api_setup.md) → [26. 提示词库（一键复制）](manual/26_prompt_library.md) |
+| 想在手机上遥控 | [25. 配置 Telegram 机器人](manual/25_phone_remote.md) |
+| 遇到问题 | [按症状查原因](faq/03_by_symptom.md) |
+| 想让 Claude / Cursor 等接管 | [MCP 一键配置](mcp/01_quickstart.md) |
 
 ---
 
-## 3 大核心商业实战场景（看图即懂）
+## 软件长什么样
 
-### 场景 01：万人大群精准成员秒级高速采集与清洗
-贴入公开或私密大群链接，多线程高速并发抓取，自动过滤 3 个月未上线的死号僵尸号，一键导出纯净 CSV 潜客名单：
+下面是 6.0 的真实界面（日间主题，账号与数据均为演示用模拟数据）。
+
+### 账号矩阵：多账号在线、号龄分级风控
+<p align="center">
+  <img src="./promo/v6/01_account_matrix.jpg" alt="账号矩阵与风控额度（演示数据）" width="96%" />
+</p>
+
+### 关键词监控：命中词高亮，风控黑名单标记
+<p align="center">
+  <img src="./promo/v6/02_lead_monitor.jpg" alt="关键词监控与线索流（演示数据）" width="96%" />
+</p>
+
+### 私信触达：文字、语音条、电话提醒
+<p align="center">
+  <img src="./promo/v6/03_voice_outreach.jpg" alt="私信触达（演示数据）" width="96%" />
+</p>
+
+### 频道克隆搬运
+<p align="center">
+  <img src="./promo/v6/04_channel_clone.jpg" alt="频道克隆搬运（演示数据）" width="96%" />
+</p>
+
+---
+
+## 双端矩阵
+
+- **电脑桌面客户端**：22 个功能模块，覆盖账号管理、独占代理、成员采集、关键词监控、群发与私信、强拉、批量加群、AI 炒群、频道克隆、机器人探查等；6.0 新增**猫管家**（一句话让软件干活）和**手机遥控**（用你自己的 Telegram 机器人）。
+- **手机端获客机器人 [@wchjbot](https://t.me/wchjbot)**：免安装，云端监听公开群里的商机并推送。
+
+---
+
+## 官方在线手册
+
+在线阅读（和本仓库同步）：**[https://baimao.gitbook.io/baimao-docs/](https://baimao.gitbook.io/baimao-docs/)**
+
+## 文档导航
+
+- **[快速上手](getting_started/architecture.md)**：生态架构、安装、激活；
+- **[手机端获客机器人（@wchjbot）](mobile_bot/01_overview.md)**：群监听、调优、广播、月卡；
+- **[电脑端 26 篇手册](USER_MANUAL.md)**：22 个功能模块 + 猫管家、模型接口、机器人配置、提示词库；
+- **[MCP 智能体协议专区](mcp/01_quickstart.md)**：一键配置、62 项工具参考、提示词库；
+- **[安全防封与常见问题](faq/01_anti_ban.md)**：防风控秘籍、按症状查原因。
+
+---
 
 <p align="center">
-  <img src="./promo/03_voice_outreach.png" alt="私信触达：电话唤醒、原生语音条与发送队列（演示数据）" width="96%" style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);" />
+  <sub>WhiteCat Studio · 白猫工作室　|　客服 <a href="https://t.me/oxbaimao">@oxbaimao</a></sub>
 </p>
-
----
-
-### 场景 02：实时商机秒级截流 × 独家风控信誉核验（防封防骗）
-全网多群实时监听求购关键词，0 延迟毫秒级捕获；独创联动本地风控黑名单过滤老赖与恶意号，一键触达真实买家：
-
-<p align="center">
-  <img src="./promo/02_lead_monitor.png" alt="实时商机监控：命中词高亮、风控黑名单标签与转化流水线（演示数据）" width="96%" style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);" />
-</p>
-
----
-
-### 场景 03：62 项 MCP 智能体深度调度 · 目标画像 1:1 毫秒级克隆
-无需手动点击后台，直接在 OpenAI Codex / Claude / Cursor / Antigravity 等 AI Agent 中自然语言指令，AI 全自动调度 62 项工具闭环操作：
-
-<p align="center">
-  <img src="./promo/01_account_matrix.png" alt="账号矩阵并发在线与号龄分级风控（演示数据）" width="96%" style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);" />
-</p>
-
----
-
-## 官方完整实战手册 (GitBook 在线文档)
-
-请直接访问我们全新打造的官方 GitBook 在线手册查阅 22 模块图文教程与防封实战：
-
- **[https://bai-mao.gitbook.io/bai-mao-docs/](https://bai-mao.gitbook.io/bai-mao-docs/)**
-
----
-
-## 文档导航速览
-
-请通过左侧侧边栏或下方快捷链接查阅对应教程：
-
-- **[快速上手](getting_started/architecture.md)**：双端生态架构、电脑端快速安装、手机机器人 30 秒唤醒；
-- **[手机端获客机器人 (@wchjbot)](mobile_bot/01_overview.md)**：全网大群监听、高级调优、Spintax 一键广播、月卡充值、拉群战报；
-- **[电脑端 22 模块实战手册](USER_MANUAL.md)**：全量 22 张画圈实战图解卡与专业操作流程；
-- **[MCP 智能体协议专区](mcp/01_quickstart.md)**：一键配置脚本、62 项工具参考与自然语言获客提示词库；
-- **[安全防封与常见问题](faq/01_anti_ban.md)**：工业级抗封秘籍与官方客服通道。\n
