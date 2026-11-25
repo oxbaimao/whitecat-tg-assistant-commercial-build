@@ -16,7 +16,7 @@
 | `tg_account_warmup` | 养号：让指定账号在 channels 里模拟真人阅读（分批翻帖、停留、标记已读，会真实计入浏览量），持续 duration_minutes 分钟，后台运行，用 tg_smart_broadcast 的 status 查看、tg_stop_task(task_id=job_id) 停止。必须提供 channels；要先让账号入群请用 tg_join_and_verify。 |
 | `tg_update_account_profile` | 修改指定 Telegram 账号的个人资料（昵称、姓氏、Bio 个人简介、公开用户名、个人主页展示频道）。 |
 | `tg_convert_session` | 会话格式转换工具：查看会话结构摘要（只给密钥指纹，不泄露密钥），并在 Telethon .session / Pyrogram .session / 字符串 / Telegram Desktop tdata 之间互转（全部离线）。 |
-| `tg_manage_proxies` | 代理池综合管理：查询当前配置的代理列表、批量导入新代理、快速测试代理连通性与网络延迟、为账号执行一号一IP的智能规划与绑定落盘，以及解除绑定释放名额（unbind）。unbind 默认 dry_run=true 只预览；不带 phones 时只处理已核实失效（Session 失效 / 被封禁）或已删除的账号，离线 / 连接失败不算失效；带 phones 才会解除指定账号（含在线账号，其当前连接不断开，下次重连才走本机网络）。 |
+| `tg_manage_proxies` | 代理池综合管理：查询当前配置的代理列表、批量导入新代理、快速测试代理连通性与网络延迟、为账号执行一号一IP的智能规划与绑定落盘、解除绑定释放名额（unbind），以及确认「代理变更待确认」账号的新代理线路并重连（confirm_drift）。unbind 与 confirm_drift 默认 dry_run=true 只预览；真实执行需先向用户展示清单并确认后传 dry_run=false。 |
 | `tg_takeover_account` 🆕 | 买来的 session / tdata 与卖家共享同一把授权密钥（卖家手里有副本，踢设备杀不掉）。本工具把卖家密钥当一次性「接码桥」：连接卖家会话 → 对同一手机号发起软件自有登录并在卖家会话里取验证码 → 新会话验明是同一个账号（T4 硬门，通过之前绝不对卖家会话做任何终止 / 注销）→ 清掉其他会话（新会话建立之前先由卖家会话清场，用户要保留的会话除外；最后卖家会话 logOut 自毁）并回读设备列表（除保留名单外必须只剩新会话）→ 旧密钥进隔离区、沙盒自检后清除 → 给新会话设置两步验证并转正进账号库。 |
 | `tg_benefits` 🆕 | 软件「福利中心」的同源工具。 |
 
@@ -27,7 +27,7 @@
 | `tg_send_message` | 向指定 Telegram 用户、群组或频道发送真实消息（支持文本、图片、表情、Markdown/HTML 格式，支持指定发信账号）。默认发送后回读核实消息确实存在（verified=true / false；false 表示接口没报错但回读没找到，可能被机器人 / 群规则立即删除）；失败时给出人话原因（限流、被限制、对方开启付费消息等）。 |
 | `tg_batch_send_messages` | 批量向目标列表（私聊用户或群组清单）发送推广或营销消息，支持多账号轮询发信与间隔限速控制；按错误分类处理限流 / 失效账号（全部冷却则剩余目标标「未执行」并停止）。同步调用，目标多时请改用 tg_unified_send。 |
 | `tg_unified_send` 🆕 | 与软件里「统一群发 / 私信群发」同一个引擎：多账号发到群 / 频道 / 用户，支持圆形视频（video_note_path）、多张图片相册（image_paths）；私信用户时还能「对方的动态」（story_view 浏览 / story_like 点赞 / story_reply 内容回复到对方动态）和「触达顺序」（预设名，或 contact_sequence_steps 自定义：浏览动态、点赞、电话、转发并置顶、文字、图片、文件、语音条、圆形视频、名片、内联消息、停顿）。 |
-| `tg_force_invite` | 批量把目标用户拉进指定的群组 / 频道（与软件里「强拉加群」同一个引擎）：先核实每个账号确实在群里且有拉人权限；拉入后回读对方是否真在群里（Telegram 对隐私受限的人不报错而是悄悄不拉，不会再被算成功）；每个账号独立间隔 / 冷却 / 人数上限；隐私受限的人可选改发私信邀请链接（只算「已发邀请」）。后台运行，返回 job_id，用 tg_get_task_status / tg_smart_broadcast 的 status 查看，tg_stop_task 停止。 |
+| `tg_force_invite` | 批量把目标用户拉进指定的群组 / 频道（与软件里「强拉加群」同一个引擎）：先核实每个账号确实在群里且有拉人权限（若账号尚未进群，可传 auto_join_group=true 自动先进群并尝试过验证）；拉入后回读对方是否真在群里（Telegram 对隐私受限的人不报错而是悄悄不拉，不会再被算成功）；每个账号独立间隔 / 冷却 / 人数上限；隐私受限的人可选改发私信邀请链接（只算「已发邀请」）。后台运行，返回 job_id，用 tg_get_task_status / tg_smart_broadcast 的 status 查看，tg_stop_task 停止。 |
 | `tg_configure_auto_reply` | 配置私信自动回复规则（支持固定话术应答、AI 智能客服应答、三段式“钩子”破冰私信漏斗、打字延迟与回复概率设定）。 |
 | `tg_start_auto_reply` | 启动私信自动回复与智能客服接待服务。传 phones 只在这些账号上监听；不传则绑定全部在线账号（自动跳过冻结 / 封禁 / Session 失效的号；双向受限的号会绑定——它能回复对方先发来的私信），返回里列出实际绑定的账号，以及 readiness：每个账号能否自动回复和原因。 |
 | `tg_stop_auto_reply` | 停止运行中的私信自动回复服务。 |
